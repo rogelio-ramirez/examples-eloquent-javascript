@@ -72,13 +72,14 @@
     console.log('When there is doubt, just add parentheses');
 
     // Special numbers
-    console.log('\n-----SPECIAL NUMBERS -----');
+    console.log('\n-----SPECIAL NUMBERS-----');
     let positiveInf = Infinity;
     let negativeInf = -Infinity;
     let notANumber = NaN;
     console.log('There is a special number Infinity: ', positiveInf);
     console.log('There is a special number Infinity (negative): ', negativeInf);
-    console.log('Both of them does not behave like normal numbers');
-    console.log('When there is an operation that has no meaningful result,')
-    console.log('you will obtain a NaN (Not a Number):', notANumber);
+    // Both of them does not behave like normal numbers
+    // When there is an operation that has no meaningful result,
+    // you will obtain a NaN (Not a Number)
+    console.log('NaN:', notANumber);
 })();
