@@ -26,7 +26,7 @@
 
 (function arithmetic() {
     // Doing arithmetic
-    console.log('-----ARITHMETIC-----');
+    console.log('\n-----ARITHMETIC-----');
 
     // Doing an addition
     let sumA = 100;
@@ -43,4 +43,42 @@
     // Doing a multiplication using parenthesis
     let prodPar = (100 + 4) * 11;
     console.log('multiplication with parenthesis: (100 + 4) * 11 =', prodPar);
+
+    // Doing a subtraction
+    let subA = 1;
+    let subB = 2;
+    let subAB = subA - subB;
+    console.log('subtraction:', subA, '-', subB, '=', subAB);
+
+    // Doing a division
+    let divA = 32;
+    let divB = 10;
+    let divAB = divA / divB;
+    console.log('division:', divA, '/', divB, '=', divAB);
+
+    // Doing a remainder
+    let divA2 = 32;
+    let divB2 = 10;
+    let divA2B2 = divA2 % divB2;
+    console.log('remainder:', divA2, '%', divB2, '=', divA2B2);
+
+    // Showing the precedence of the operators
+    console.log('\n---Precedence of the operators---');
+    console.log('Remainder: %, Multiplication: * and Division: /');
+    console.log('Addition: + and Subtraction: -');
+    console.log('When 2 or more operators of the same precedence appear');
+    console.log('next to each other, they are applied left to right');
+    console.log('(as the code is read)');
+    console.log('When there is doubt, just add parentheses');
+
+    // Special numbers
+    console.log('\n-----SPECIAL NUMBERS -----');
+    let positiveInf = Infinity;
+    let negativeInf = -Infinity;
+    let notANumber = NaN;
+    console.log('There is a special number Infinity: ', positiveInf);
+    console.log('There is a special number Infinity (negative): ', negativeInf);
+    console.log('Both of them does not behave like normal numbers');
+    console.log('When there is an operation that has no meaningful result,')
+    console.log('you will obtain a NaN (Not a Number):', notANumber);
 })();
