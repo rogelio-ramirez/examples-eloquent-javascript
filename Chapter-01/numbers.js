@@ -2,7 +2,7 @@
 // $ node numbers.js
 // Self executing funtions just in order to make it easy
 /*
-(function <nameFunction>([formalParameters...]){
+(function <nameFunction>([formalParameters...]) {
     [codeToBeExecuted...]
 })([actualParameters...]);
 */
