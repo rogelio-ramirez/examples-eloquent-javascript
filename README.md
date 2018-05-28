@@ -4,7 +4,19 @@ The repository is being written at the pace I am learning, sorry for the inconve
 
 ## Chapter 1
 Numbers - complete.
+
 Strings - complete.
+
 Unary operators - complete.
-Boolean - under coding.
+
+Boolean - complete.
+
+Logical operators - complete.
+
+Empty values - under coding.
+
+Automatic type conversion - under coding.
+
+Short-circuiting of logical operators - under coding.
+
 Rest of chapter - pending.
