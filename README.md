@@ -1,6 +1,9 @@
 # examples-eloquent-javascript
 Repository to write the examples in book "Eloquent Javascript".
-The repository is being written at the pace I am learning, sorry for the inconvenience :D.
+
+You can find the book in the official site [Eloquent Javascript](https://eloquentjavascript.net/)
+
+The repository is being written at the pace I am learning, sorry for the inconvenience :D
 
 ## Chapter 1
 Numbers - complete.
@@ -13,10 +16,13 @@ Boolean - complete.
 
 Logical operators - complete.
 
-Empty values - under coding.
+Empty values - complete.
 
-Automatic type conversion - under coding.
+Automatic type conversion - complete.
 
-Short-circuiting of logical operators - under coding.
+Short-circuiting of logical operators - complete.
 
-Rest of chapter - pending.
+## Chapter 2
+Under coding.
+
+Rest of book - pending.
